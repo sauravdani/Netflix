@@ -3,14 +3,40 @@
     padding: 0px;
 }
 
-main {
+.main {
     background-image: url(assets/Images/bg.jpg);
     height: 70vh;
+    background-position: center center;
+    background-size: max(100vw, 1000px);
+    text-align: center;
+    position: relative;
 }
 
-main #box {
+.main #blackBox {
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.5;
     height: 70vh;
     width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.navLogo {
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(166, 255, 0);
+    max-width: 60vw;
+    margin: auto;
+    align-items: centers;
+    justify-content: space-between;
+}
+
+.navButton {
+    position: relative;
+    z-index: 10;
 }
