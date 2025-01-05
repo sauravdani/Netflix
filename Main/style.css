@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100% - 10%);
+    height: calc(100% - 8.9%);
     color: white;
     position: relative;
     font-family: 'Martel Sans', sans-serif;
@@ -82,7 +82,7 @@ body {
 
 .seperation {
     height: 6px;
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(61, 61, 61);
 }
 
 .btn {
@@ -119,16 +119,22 @@ body {
     font-weight: 700;
 }
 
-.first {
-    margin-top: 15px;
+.first,
+.second,
+.third {
+    margin-top: 5vh;
     display: flex;
     align-content: center;
     justify-content: center;
     margin: auto;
     max-width: 70vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
-.first .text {
+.first .text,
+.second .text,
+.third .text {
     display: flex;
     justify-content: center;
     align-items: left;
@@ -137,14 +143,20 @@ body {
     font-family: 'Martel Sans', sans-serif;
 }
 
-.first .text .big-text {
+.first .text .big-text,
+.second .text .big-text,
+.third .text .big-text {
     font-weight: bolder;
     font-size: 48px;
+    line-height: 150%;
 }
 
-.first .text .small-text {
+.first .text .small-text,
+.second .text .small-text,
+.third .text .small-text {
     font-size: 24px;
     font-weight: 300;
+    line-height: 120%;
 }
 
 .secImg {
@@ -157,10 +169,18 @@ body {
     z-index: -1;
 }
 
+.secImg-out img {
+    position: relative;
+    width: 20vw;
+    /* border: 2vw solid transparent; */
+    border-radius: 75px;
+    padding: 40px;
+}
+
 .secImg video {
     position: absolute;
-    right: 73px;
+    right: 13.8%;
     width: 22vw;
-    top: 83px;
+    top: 20%;
     z-index: -2;
 }
