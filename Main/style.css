@@ -89,26 +89,9 @@ body {
     margin: 3px;
     padding: 3px 20px;
     border-radius: 4px;
-    border-width: .5px;
+    border: 0.3px solid rgb(143, 143, 143);
     color: white;
     background-color: rgba(69, 69, 69, 0.397);
-    border-color: rgb(255, 255, 255);
-}
-
-.email {
-    padding: 9px 19px;
-    background-color: rgba(0, 0, 0, 0.552);
-    border-color: grey;
-    border-radius: 4px;
-    border-width: .5px;
-}
-
-.btn-red {
-    padding: 9px 17px;
-    background-color: red;
-    color: white;
-    border: 0px;
-    font-weight: 700;
 }
 
 .btn-red-sm {
@@ -116,5 +99,22 @@ body {
     color: white;
     border: 0px;
     padding: 5px 8px;
+    font-weight: 700;
+}
+
+.email {
+    padding: 9px 19px;
+    background-color: rgba(0, 0, 0, 0.552);
+    border-radius: 4px;
+    border: 0.5px solid rgb(146, 146, 146);
+    color: white;
+    font-weight: 100;
+}
+
+.btn-red {
+    padding: 9px 17px;
+    background-color: red;
+    color: white;
+    border: 0px;
     font-weight: 700;
 }
