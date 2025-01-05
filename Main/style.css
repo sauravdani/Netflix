@@ -184,3 +184,59 @@ body {
     top: 20%;
     z-index: -2;
 }
+
+h1 {
+    color: rgb(192, 191, 191);
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.faq {
+    margin: auto;
+}
+
+.faq-box {
+    display: flex;
+    color: white;
+    background-color: rgb(38, 38, 38);
+    padding: 20px 30px;
+    border: 20px 30px;
+    max-width: 60vw;
+    max-height: 4vh;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    justify-content: conte;
+    margin-bottom: 0.8vh;
+    cursor: pointer;
+}
+
+.faq-box:hover {
+    background-color: rgb(93, 93, 93);
+}
+
+.faq-box svg {
+    position: absolute;
+    width: 2vw;
+    max-height: 4vh;
+    left: 77%;
+}
+
+.main-text {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 8.9%);
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+footer p {
+    color: white;
+    margin: 7vh 3vh 15vw 15vw;
+}
