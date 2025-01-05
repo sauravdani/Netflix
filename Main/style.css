@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100% - 46px);
+    height: calc(100% - 60px);
     color: white;
     position: relative;
     font-family: 'Martel Sans', sans-serif;
@@ -81,14 +81,40 @@ body {
 }
 
 .seperation {
-    height: 8px;
-    background-color: rgba(80, 80, 80, 0.762);
+    height: 6px;
+    background-color: rgb(80, 80, 80);
 }
 
 .btn {
-    margin: 10px;
+    margin: 3px;
+    padding: 3px 20px;
+    border-radius: 4px;
+    border-width: .5px;
+    color: white;
+    background-color: rgba(69, 69, 69, 0.397);
+    border-color: rgb(255, 255, 255);
+}
+
+.email {
+    padding: 9px 17px;
+    background-color: rgba(0, 0, 0, 0.552);
+    border-color: grey;
+    border-radius: 4px;
+    border: 2px;
 }
 
 .btn-red {
-    border: 10px;
+    padding: 9px 17px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    font-weight: 700;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 4px 8px;
+    font-weight: 700;
 }
