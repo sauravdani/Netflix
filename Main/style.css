@@ -118,3 +118,49 @@ body {
     border: 0px;
     font-weight: 700;
 }
+
+.first {
+    margin-top: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.first .text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.first .text .big-text {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.first .text .small-text {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    width: 30vw;
+    z-index: -1;
+}
+
+.secImg video {
+    position: absolute;
+    right: 73px;
+    width: 22vw;
+    top: 83px;
+    z-index: -2;
+}
